@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/LAdded">
+	<TextView
+		android:text="Добавление пароля:"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/TxtViewH"
+		android:textAlignment="center"
+		android:textColor="#ff000000"
+		android:textSize="32dp"
+		android:layout_marginTop="9.0dp" />
+	<TextView
+		android:text="Название:"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView0"
+		android:textColor="#ff000000"
+		android:textSize="15dp"
+		android:layout_marginTop="39.5dp"
+		android:textAlignment="center" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/EdtNameAdd"
+		android:layout_marginLeft="70.5dp"
+		android:layout_marginRight="70.5dp" />
+	<TextView
+		android:text="Логин:"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView00"
+		android:textColor="#ff000000"
+		android:textSize="15dp"
+		android:textAlignment="center" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/EdtLoginAdd"
+		android:layout_marginLeft="70.5dp"
+		android:layout_marginRight="70.5dp"/>
+	<TextView
+		android:text="Пароль:"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView000"
+		android:textColor="#ff000000"
+		android:textSize="15dp"
+		android:textAlignment="center" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/EdtPassAdd"
+		android:layout_marginLeft="70.5dp"
+		android:layout_marginRight="70.5dp"
+		android:inputType="none|textPassword" />
+	<Button
+		android:text=""
+		android:layout_width="112.5dp"
+		android:layout_height="56.5dp"
+		android:id="@+id/BtnShowPassAddEdtit"
+		android:background="@drawable/show2"
+		android:layout_marginRight="135.5dp"
+		android:maxWidth="112.5dp"
+		android:maxHeight="56.5dp"
+		android:layout_marginLeft="129.5dp"
+		android:tag="1" />
+	<Button
+		android:text="Сохранить"
+		android:layout_width="match_parent"
+		android:layout_height="54.5dp"
+		android:id="@+id/BtnSave"
+		android:layout_marginTop="28.7dp"
+		android:layout_marginLeft="60.5dp"
+		android:layout_marginRight="60.5dp"
+		android:background="#ff4682b4"
+		android:textColor="#ffffffff" />
+	<Button
+		android:text="Отмена"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/BtnCansel"
+		android:layout_marginLeft="100.5dp"
+		android:layout_marginRight="100.5dp"
+		android:background="#ff4682b4"
+		android:layout_marginTop="6.5dp"
+		android:textColor="#ffffffff" />
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/LProper">
+	<Button
+		android:text="О программе."
+		android:layout_width="match_parent"
+		android:layout_height="28.5dp"
+		android:id="@+id/BtnInformation"
+		android:textSize="10dp"
+		android:layout_marginRight="0.0dp"
+		android:layout_marginLeft="0.0dp"
+		android:background="#ff4682b4"
+		android:textColor="#ffffffff" />
+	<TextView
+		android:text="Цветовая тема приложения:"
+		android:layout_width="match_parent"
+		android:layout_height="37.5dp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView1"
+		android:textColor="#ff000000"
+		android:layout_marginTop="4.0dp"
+		android:textSize="15dp"
+		android:layout_marginLeft="0.5dp"
+		android:textAlignment="center" />
+	<RadioGroup
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/radioGroup1">
+		<RadioButton
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:checked="true"
+			android:text="Светлая тема"
+			android:id="@+id/RbWhiteThem"
+			android:layout_marginLeft="130.0dp"
+			android:layout_marginTop="1.0dp"
+			android:layout_marginRight="130.0dp" />
+		<RadioButton
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Темная тема"
+			android:id="@+id/RbDarkThem"
+			android:layout_marginLeft="130.0dp"
+			android:layout_marginRight="130.0dp"
+			android:layout_marginBottom="0.0dp" />
+	</RadioGroup>
+	<TextView
+		android:text="Редактирование профиля:"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView2"
+		android:layout_marginTop="42.5dp"
+		android:textColor="#ff000000"
+		android:textSize="20dp"
+		android:textAlignment="center" />
+	<TextView
+		android:text="Логин:"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView4"
+		android:textColor="#ff000000"
+		android:layout_marginTop="13.0dp"
+		android:textAlignment="center" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/EdtLoginProper"
+		android:enabled="false"
+		android:layout_marginLeft="70.5dp"
+		android:layout_marginRight="70.5dp" />
+	<TextView
+		android:text="Пароль:"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView3"
+		android:textColor="#ff000000"
+		android:textAlignment="center" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/EdtPassProper"
+		android:enabled="false"
+		android:layout_marginLeft="70.5dp"
+		android:layout_marginRight="70.5dp"
+		android:textColor="#ff000000"
+		android:inputType="none|textPassword" />
+	<TextView
+		android:text="Электроная почта"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/TxtVEma"
+		android:layout_marginRight="0.0dp"
+		android:layout_marginLeft="1.0dp"
+		android:textColor="#ff000000"
+		android:textAlignment="center"/>
+	<EditText
+		android:inputType="textEmailAddress"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/EdtEmail"
+		android:layout_marginRight="70.5dp"
+		android:layout_marginLeft="70.5dp"
+		android:enabled="false"
+		android:textAlignment="center" 
+	/>
+	<Button
+		android:text="Редактировать"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/BtnEdtUser"
+		android:background="#ff4682b4"
+		android:textColor="#ffffffff"
+		android:layout_marginTop="33.5dp"
+		android:layout_marginRight="40.0dp"
+		android:layout_marginLeft="40.0dp" />
+	<Button
+		android:text="Отмена"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/BtnCanselProper"
+		android:layout_marginLeft="70.5dp"
+		android:layout_marginRight="70.5dp"
+		android:layout_marginTop="6.0dp"
+		android:background="#ff4682b4"
+		android:textColor="#ffffffff"
+		android:visibility="invisible"
+	/>
+
+</LinearLayout>

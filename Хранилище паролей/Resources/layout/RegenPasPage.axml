@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:id="@+id/LRegen">
+	<EditText
+		android:inputType="textEmailAddress"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/EdtEmailRegen"
+		android:layout_marginTop="146.5dp"
+		android:layout_marginRight="40.0dp"
+		android:layout_marginLeft="40.0dp"
+		android:hint="Введите E-mail"
+		android:textAlignment="center" />
+	<Button
+		android:text="Дальше"
+		android:layout_width="match_parent"
+		android:layout_height="55.5dp"
+		android:id="@+id/BtnNext"
+		android:layout_marginTop="21.5dp"
+		android:layout_marginRight="87.0dp"
+		android:layout_marginLeft="87.0dp"
+		android:textColor="#ffffffff"
+		android:background="#ff4682b4" />
+
+</LinearLayout>
